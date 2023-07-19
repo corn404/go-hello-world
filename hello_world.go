@@ -1,5 +1,5 @@
 package go_hello_world
 
-func HelloWold() string {
-	return "Hello World V1.5.0"
+func HelloWold(name string) string {
+	return "Hello " + name
 }
